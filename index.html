@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onload="myFuntion()">
+    <div id="loading"></div>
     <header>
         <nav class="h-resp">
             <div class="logo v-resp"><img src="Images/logo.png" alt="LOGO">
@@ -167,6 +168,13 @@
         </div>
     </footer>
     <!-- <script src="Func.js"></script> -->
+    <script>
+        const preloader = document.getElementById('loading');
+
+        function myFuntion(){
+            preloader.style.display = 'none';
+        }
+    </script>
 </body>
 
 </html>
