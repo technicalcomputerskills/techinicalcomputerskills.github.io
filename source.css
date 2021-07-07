@@ -173,6 +173,48 @@ nav{
                 font-size: 10px !important;
             }
         }
+        @media only screen and (max-width: 540px){
+            iframe{
+                    width: 100%;
+                    height: 39%;
+                }
+                .side-bar{
+                    display: none;
+                }
+                .side-bar a{
+                    padding: 4px 10px;
+                    margin: 2px 0;
+                }
+                .code-toolbar{
+                width: 100% !important;
+                padding: 0 !important;
+                margin-bottom: 10px;
+            }
+                code{
+                    font-size: 12px !important;
+                }
+            }
+            @media only screen and (max-width: 485px){
+                iframe{
+                    width: 100%;
+                    height: 35%;
+                }
+                .side-bar{
+                    display: none;
+                }
+                .side-bar a{
+                    padding: 4px 10px;
+                    margin: 2px 0;
+                }
+                .code-toolbar{
+                    width: 100% !important;
+                padding: 0 !important;
+                margin-bottom: 10px;
+            }
+            code{
+                    font-size: 12px !important;
+                }
+            }
             @media only screen and (max-width: 370px){
                 iframe{
                     width: 100%;
