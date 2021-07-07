@@ -1,0 +1,160 @@
+.main{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    background: rgb(24, 24, 24);
+}
+.side-bar a{
+    text-decoration: none;
+    display: block;
+    background: rgb(231, 231, 231);
+    padding: 40px 10px;
+    margin: 1px 0;
+    color: rgb(54, 54, 54);
+}
+.side-bar a:hover{
+    background: rgb(219, 219, 219);
+}
+.side-bar a img{
+    width: 4%;
+}
+.active-s{
+    background: gray !important;
+    color: #fff !important;
+}
+.active-s-c{
+    color: rgb(255, 191, 28) !important;
+}
+.side-bar a span{
+    position: relative;
+    bottom: 3px;
+    color: #000;
+}
+@media only screen and (max-width: 485px){
+    .side-bar{
+        height: 89vh;
+    }
+    nav{
+        height: 65px;
+    }
+    nav .logo{
+        margin: 0;
+    top: 0;
+    left: -5px;
+    }
+    .side-bar a{
+    margin: 13px 0;
+    padding: 6px 0px;
+    }
+    nav .MenuBar{
+    position: absolute;
+    top: 2%;
+    }
+}
+@media only screen and (max-width: 710px){
+    .side-bar{
+        height: 89vh;
+    }
+    nav{
+        height: 65px;
+    }
+    nav .logo{
+        margin: 0;
+    top: 0;
+    left: -5px;
+    }
+    .side-bar a{
+    margin: 13px 0;
+    padding: 6px 0px;
+    }
+    nav .MenuBar{
+    position: absolute;
+    top: 2%;
+    }
+}
+.code-toolbar{
+    width: 70% !important;
+}
+.side-bar{
+    position: absolute;
+    background: rgb(143, 143, 143);
+    width: 30.2%;
+    height: 80.5%;
+    top: 9.4%;
+    right: 0;
+    overflow-y: scroll;
+}
+.main .source-code-bx{
+    background: rgb(219, 218, 218);
+    padding: 10px;
+}
+.source-code-bx .contentbx{
+    /* background: gray; */
+    width: 100%;
+}
+.source-code-bx .contentbx h1{
+    color: #000;
+    margin: 10px 0 20px 0;
+}
+.source-code-bx .contentbx p{
+    color: rgb(46, 46, 46);
+    font-size: 16pt;
+    margin-bottom: 3rem;
+}
+@media only screen and (max-width: 1024px){
+    iframe{
+    width: 68%;
+    height: 58%;
+    }
+    .side-bar{
+    height: 58.4%;
+    width: 31.5%;
+    top: 10.2%;
+    }
+    .side-bar a{
+        padding: 20px 10px;
+    }
+    .code-toolbar{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 710px){
+        iframe{
+            width: 65%;
+            height: 38%;
+        }
+        .side-bar{
+            height: 38.2%;
+            width: 34.5%;
+            top: 8.3%;
+        }
+        .side-bar a{
+            padding: 4px 10px;
+            margin: 2px 0;
+        }
+        .code-toolbar{
+            width: 100% !important;
+        }
+}
+@media only screen and (max-width: 370px){
+    iframe{
+        width: 100%;
+        height: 30%;
+    }
+    .side-bar{
+        display: none;
+    }
+    .side-bar a{
+        padding: 4px 10px;
+        margin: 2px 0;
+    }
+    .code-toolbar{
+    width: 100% !important;
+    padding: 0 !important;
+    margin-bottom: 10px;
+    }
+    code{
+        font-size: 10px !important;
+    }
+}
